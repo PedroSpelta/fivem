@@ -33,7 +33,7 @@ static rage::grcRenderTarget *maskRenderTarget, *tempRenderTarget;
 static int* currentShader;
 static int* g_currentDrawBucket;
 
-static CRGBA outlineColor{ 255, 0, 255, 254 };
+static CRGBA outlineColor{ 255, 0, 255, 255 };
 
 class OutlineRenderer
 {
